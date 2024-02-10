@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir Video</title>
+</head>
+<body>
+    <input type="file" id="videoFile" accept="video/*">
+    <button id="btnUploadVideo">Subir Video</button>
+
+    <hr/>
+
+    <br>
+    <video id="videoPlayer" width="500">
+    <source src="../BACKEND/uploads/video-1707607355349.mp4" type="video/mp4">
+    Tu navegador no soporta el vídeo de HTML5
+    </video>
+
+    <br/>
+
+    <button id="btnPlayStop">Reproducir/Pausar</button>
+    <button id="brnRecargar">Recargar</button>
+    <button id="btnMaximizar">Maximizar</button>
+    <button id="btnMinimizar">Minimizar</button>
+    <button id="btnNormal">Normal</button>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
