@@ -60,7 +60,9 @@ const documentReady =   () => {
             // Manejar errores
             console.error('Error:', error);
           });
-       
+
+          //refrescar ventana
+          location.reload();
     }
 
     const playPause = () => { 
