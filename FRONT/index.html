@@ -6,14 +6,19 @@
     <title>Subir Video</title>
 </head>
 <body>
-    <input type="file" id="videoFile" accept="video/*">
-    <button id="btnUploadVideo">Subir Video</button>
+    <form class="py-2" id="formFile">
+
+        <input type="file" id="videoFile" accept="video/*">
+        <button id="btnUploadVideo">Subir Video</button>
+
+    </form>
+   
 
     <hr/>
 
     <br>
     <video id="videoPlayer" width="500">
-    <source src="../BACKEND/uploads/video-1707607355349.mp4" type="video/mp4">
+    <source src="../BACKEND/uploads/.mp4" id="souceVideo" type="video/mp4">
     Tu navegador no soporta el vídeo de HTML5
     </video>
 
@@ -25,6 +30,6 @@
     <button id="btnMinimizar">Minimizar</button>
     <button id="btnNormal">Normal</button>
 
-    <script src="./js/index.js"></script>
+    <script src="./js/index.js" ></script>
 </body>
 </html>
